@@ -19,19 +19,55 @@
 	</noscript>
 	<![endif]-->
     <style>
-        table,
-        td,
-        div,
-        h1,
-        p {
-            font-family: Helvetica, Arial, sans-serif;
-        }
+        @media only screen and (max-device-width: 600px) {
+            .button {
+                font-size: 20px !important;
+                padding: 18px 40px !important;
 
-        table,
-        /* td {
-            border: 2px solid #000000 !important;
-        } */
+            }
+
+            .mobile_text {
+                font-size: 16px !important;
+            }
+
+            .small_text {
+                font-size: 14px !important;
+            }
+
+            .paypal_word {
+                width: 300px !important;
+            }
+
+            .icon {
+                width: 35px !important;
+            }
+
+            .center_mobile {
+                width: 100% !important;
+                padding: 0px !important;
+            }
+
+            .container {
+                padding: 0px 100px !important;
+
+            }
+
+            .space {
+                padding: 20px 0px 10px 35px !important;
+            }
+
+            .total {
+                padding: 0px 70px !important;
+            }
+
+            .last_icon {
+                padding: 0px !important;
+            }
+
+
+        }
     </style>
+
 </head>
 
 <body style="margin:0;padding:0;min-width:100%;background-color:#ffffff;">
@@ -40,7 +76,7 @@
         <tr>
             <td align="center" style="padding:0;margin: 0;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                    style="width:600px;border-collapse:collapse;border:0;border-spacing:0;text-align:left;background:#f6f3f3;">
+                    style="width:600px;border-collapse:collapse;border:0;border-spacing:0;background:#f6f3f3;">
                     <!-- logo  -->
                     <tr>
                         <td style="padding:0px 30px 0px 0px;background: #FAF8F5;">
@@ -69,11 +105,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="padding:0px 0px 30px 35px">
-                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    <td class="container" style="padding:0px 0px 30px 35px">
+                                        <table class="center_mobile" border="0" cellpadding="0" cellspacing="0"
+                                            role="presentation"
                                             style="border-collapse:collapse;border:4px;border-spacing:0;padding: 0px 0px 20px 0px;">
                                             <tr>
-                                                <td
+                                                <td class="button"
                                                     style="color:#ffffff;text-align:center;border-radius:50px;font-family:Helvetica;font-style:normal;font-weight:bold;font-size:18px;text-decoration:none;display:block;margin:auto;padding:12px 40px;border:0;background: #003087;">
                                                     View or manage payment
                                                 </td>
@@ -82,9 +119,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="padding:0px 0px 0px 35px">
-                                        <p
-                                            style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
+                                    <td class="space" style="padding:0px 0px 10px 35px">
+                                        <p class="mobile_text "
+                                            style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;">
                                             It may take a few moments for this transaction to appear in your account.
                                         </p>
 
@@ -96,13 +133,14 @@
                     <!-- top banner -->
                     <!-- white rounded block -->
                     <tr>
-                        <td style="padding:0px 30px 25px 30px;background: #FAF8F5;">
+                        <td class="total" style="padding:0px 30px 25px 30px;background: #FAF8F5;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation"
                                 style="width:100%;border-collapse:collapse;border-radius: 15px;border-spacing:0;background: #ffffff; ">
                                 <tr>
                                     <td align="center" vertical-align="top" style="padding: 25px 0px 0px 0px;">
                                         <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                            style="width: 100%;border-collapse:collapse;border-spacing:0;">
+                                            style="width: 100%;border-collapse:collapse;border-spacing:0;"
+                                            class="center_mobile">
                                             <tr>
                                                 <td style="padding:0px 25px 20px 25px">
                                                     <table border="0" cellpadding="0" cellspacing="0"
@@ -110,14 +148,14 @@
                                                         style="width:100%;border-collapse: collapse;border-spacing: 0;font-size :14px;">
                                                         <tr>
                                                             <td style="padding:0">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Transaction ID</strong> <br>
                                                                     <a href="#"> 49U53034GP7000000</a>
                                                                 </p>
                                                             </td>
                                                             <td style="padding:0px;">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Transaction date</strong> <br>
                                                                     Jan 20, 2023 13:02:46 PST
@@ -126,7 +164,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td style="padding:0px;">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Merchant</strong> <br>
                                                                     Mint Mobile <br>
@@ -134,7 +172,7 @@
                                                                 </p>
                                                             </td>
                                                             <td style="padding:0px;">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Instructions to
                                                                         merchant</strong> <br>
@@ -145,7 +183,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td style="padding:0px;">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Invoice ID</strong> <br>
                                                                     MT2651812
@@ -154,10 +192,10 @@
                                                         </tr>
                                                         <tr>
                                                             <td style="padding:0px;">
-                                                                <p
+                                                                <p class="mobile_text"
                                                                     style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
                                                                     <strong>Shipping address - </strong>
-                                                                    <br>
+
                                                                     <span style="color:#30ab43">confirmed</span>
                                                                     <br>
                                                                     Jane Doe <br>
@@ -166,8 +204,8 @@
                                                                 </p>
                                                             </td>
                                                             <td style="padding:0px;">
-                                                                <p
-                                                                    style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 20px;">
+                                                                <p class="mobile_text"
+                                                                    style="margin:0;font-size:14px;line-height:24px;font-family:Helvetica,Arial,sans-serif;color:#4c4c4c;padding: 0px 0px 41px 0px;">
                                                                     <strong>Shipping details</strong> <br>
                                                                     The seller hasn’t provided <br> any
                                                                     shipping details
@@ -176,7 +214,6 @@
                                                             </td>
                                                         </tr>
                                                     </table>
-
                                                 </td>
                                             </tr>
                                         </table>
@@ -188,29 +225,29 @@
                     <!-- white rounded block -->
                     <!-- two row section -->
                     <tr>
-                        <td style="padding:0px 30px 25px 30px;background: #FAF8F5;">
-                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                style="width:100%;font-size: 14px;border-collapse:collapse;border:0;border-spacing:0; ">
+                        <td class="total" style="padding:0px 30px 25px 30px;background: #FAF8F5;">
+                            <table class="width80" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="width:100%;font-size:14px;border-collapse:collapse;border:0;border-spacing:0; ">
                                 <tr
                                     style="background: #f5f7fa; border-top: 1px solid #c6c6c6;border-bottom: 1px solid #c6c6c6;">
                                     <td style="padding:0px;">
-                                        <p
+                                        <p class="mobile_text"
                                             style="font-weight: 600;font-size:14px;font-family:Helvetica,Arial,sans-serif;color: #000000;">
                                             Description
                                         </p>
                                     </td>
                                     <td style="padding:0px;" align="right">
-                                        <p
+                                        <p class="mobile_text"
                                             style="font-weight: 600;font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Unit price</p>
                                     </td>
                                     <td style="padding:0px;" align="right">
-                                        <p
+                                        <p class="mobile_text"
                                             style="font-weight: 600;font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Qty</p>
                                     </td>
                                     <td style="padding:0px;" align="right" width="140">
-                                        <p
+                                        <p class="mobile_text"
                                             style="font-weight: 600;font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Amount</p>
                                     </td>
@@ -218,16 +255,19 @@
                                 <tr style="background:#FAF8F5;border-bottom: 1px solid #c6c6c6; ">
                                     <td></td>
                                     <td style="padding:0px;" align="right">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
                                     <td style="padding:0px;" align="right">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             1</p>
                                     </td>
                                     <td style="padding:0px;" align="right" width="140">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
@@ -238,48 +278,56 @@
                     <!-- two row section -->
                     <!-- totals section -->
                     <tr>
-                        <td style="padding: 0px 30px 25px 30px;background:#FAF8F5;">
+                        <td class="total" style="padding: 0px 30px 25px 30px;background:#FAF8F5;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation"
                                 style="width:100%;font-size:14px;border-collapse:collapse;border:0;border-spacing:0; ">
                                 <tr>
                                     <td style="padding:0;text-align:right;">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             <strong>
-                                                Subtotal</strong></p>
+                                                Subtotal</strong>
+                                        </p>
                                     </td>
                                     <td style="padding:0;text-align:right;" width="135">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding:0;text-align:right;">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             <strong>Total</strong>
                                         </p>
                                     </td>
                                     <td style="text-align:right" width="135">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding:0;text-align:right;">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             <strong>Payment</strong>
                                         </p>
                                     </td>
                                     <td style="padding:0;text-align:right;" width="135">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding:0;text-align:right;" colspan="2">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Payment sent from <a href="#">janedoe@gmail.com</a>
                                         </p>
                                     </td>
@@ -290,24 +338,27 @@
                     <!-- totals section -->
                     <!-- bank info section -->
                     <tr>
-                        <td style="padding:0px 30px 25px 30px;background: #FAF8F5;">
+                        <td class="total" style="padding:0px 30px 25px 30px;background: #FAF8F5;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation"
                                 style="width:100%;border-collapse:collapse;border:0;border-spacing:0; ">
                                 <tr>
                                     <td style="padding:0px;text-align: right;">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             <strong>Funding Sources Used (Total)</strong>
                                         </p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding:0px;text-align: right;">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             CHASE BANK
                                             x-xxxx</p>
                                     </td>
                                     <td style="padding:0px;text-align: right;" width="134">
-                                        <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                                        <p class="mobile_text"
+                                            style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             $199.16 USD
                                         </p>
                                     </td>
@@ -318,11 +369,11 @@
                     <!-- bank info section -->
                     <!-- blue buttom -->
                     <tr>
-                        <td style="padding:0px 30px 25px 30px;background: #FAF8F5;">
-                            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                        <td class="container" style="padding:0px 30px 25px 30px;background: #FAF8F5;">
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" class="center_mobile"
                                 style="border-collapse:collapse;border:4px;border-spacing:0;padding: 0px 0px 0px 0px;">
                                 <tr>
-                                    <td
+                                    <td class="button"
                                         style="color:#ffffff;text-align:center;border-radius:50px;font-family:Helvetica;font-style:normal;font-weight:bold;font-size:18px;text-decoration:none;display:block;margin:auto;padding:12px 40px;border:0;background: #003087;">
                                         View or manage payment
                                     </td>
@@ -335,7 +386,8 @@
                     <!-- issue statement -->
                     <tr>
                         <td style="padding:0px 30px 25px 30px;background: #FAF8F5;">
-                            <p style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
+                            <p class="mobile_text"
+                                style="font-size:14px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                 <strong> Issues with this transaction?</strong> <br><br>
 
                                 You have 180 days from the date of the transaction to open a dispute in the Resolution
@@ -347,8 +399,8 @@
                     <!-- paypal image -->
                     <tr>
                         <td style="background: #FAF8F5;" valign="top" width="120">
-                            <img src="https://i.postimg.cc/T1W6QYTb/paypal-word.png" style="display: block;"
-                                alt="paypal-word" width="280" height="">
+                            <img class="paypal_word" src="https://i.postimg.cc/T1W6QYTb/paypal-word.png"
+                                style="display: block;" alt="paypal-word" width="280" height="">
                         </td>
                     </tr>
                     <!-- paypal image -->
@@ -360,25 +412,33 @@
                                 <tr>
                                     <td style="padding:0px 10px 0px 0px;">
                                         <a href="#">
-                                            <p style="font-size:11px;font-family:Helvetica,Arial,sans-serif;">Help &#38;
+                                            <p class="small_text"
+                                                style="font-size:11px;font-family:Helvetica,Arial,sans-serif;">Help
+                                                &#38;
                                                 Contact</p>
                                         </a>
                                     </td>
                                     <td style="padding:0">
-                                        <p style="font-size:11px;font-family:Helvetica,Arial,sans-serif;">|</p>
+                                        <p class="small_text"
+                                            style="font-size:11px;font-family:Helvetica,Arial,sans-serif;color: #000000;">
+                                            |</p>
                                     </td>
                                     <td style="padding:0px 10px 0px 10px;">
                                         <a href="#">
-                                            <p style="font-size:11px;font-family:Helvetica,Arial,sans-serif;"> Secuirty
+                                            <p class="small_text"
+                                                style="font-size:11px;font-family:Helvetica,Arial,sans-serif;"> Secuirty
                                             </p>
                                         </a>
                                     </td>
                                     <td style="padding:0">
-                                        <p style="font-size:11px;font-family:Helvetica,Arial,sans-serif;">|</p>
+                                        <p class="small_text"
+                                            style="font-size:11px;font-family:Helvetica,Arial,sans-serif;color: #000000;">
+                                            |</p>
                                     </td>
                                     <td style="padding:0px 10px 0px 10px;border: #000000;">
                                         <a href="#">
-                                            <p style="font-size:11px;font-family:Helvetica,Arial,sans-serif;"> Apps</p>
+                                            <p class="small_text"
+                                                style="font-size:11px;font-family:Helvetica,Arial,sans-serif;"> Apps</p>
                                         </a>
                                     </td>
                                 </tr>
@@ -389,17 +449,18 @@
                     <!-- small blue text -->
                     <!-- icon table -->
                     <tr>
-                        <td style="padding:0px 30px 25px 15px;background: #FAF8F5;">
+                        <td class="container icon" style="padding:0px 30px 25px 15px;background: #FAF8F5;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                style="border-collapse:collapse;border:4px;border-spacing:0;padding: 0px 0px 0px 0px;">
+                                style="border-collapse:collapse;border:4px;border-spacing:0;padding: 0px 0px 0px 0px;"
+                                class="center_mobile">
                                 <tr>
-                                    <td style="padding:0px 15px"> <img src="https://i.postimg.cc/7LmwZWB5/twitter.png
+                                    <td style="padding:0px 15px"> <img class="icon" src="https://i.postimg.cc/7LmwZWB5/twitter.png
                     " alt="" width="28"></td>
-                                    <td style="padding:0px 15px"> <img src="https://i.postimg.cc/LXWSzZFR/instagram.png
+                                    <td style="padding:0px 15px"> <img class="icon" src="https://i.postimg.cc/LXWSzZFR/instagram.png
                     " alt="" width="28"> </td>
-                                    <td style="padding:0px 15px"> <img src="https://i.postimg.cc/3RN74F6n/facebook.png
+                                    <td style="padding:0px 15px"> <img class="icon" src="https://i.postimg.cc/3RN74F6n/facebook.png
                     " alt="" width="28"> </td>
-                                    <td style="padding:0px 15px"> <img src="https://i.postimg.cc/130yLtwc/linkdin.png
+                                    <td class="last_icon" style="padding:0px 15px"> <img class="icon" src="https://i.postimg.cc/130yLtwc/linkdin.png
                     " alt="" width="28"> </td>
                                 </tr>
                             </table>
@@ -413,7 +474,7 @@
                                 style="border-collapse:collapse;font-size:11px;border:4px;border-spacing:0;padding: 0px 0px 20px 0px;">
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             PayPal is committed to preventing fraudulent emails. Emails
                                             from PayPal will
@@ -423,7 +484,7 @@
                                 </tr>
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Please don't reply to this email. To get in touch with us,
                                             click <a href="#">Help &#38; Contact.</a> </p>
@@ -432,14 +493,14 @@
                                 </tr>
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             PayPal Customer Service can be reached at 888-221-1161.</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Not
                                             sure why you received this email? <a href="#">Learn
@@ -448,7 +509,7 @@
                                 </tr>
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             Copyright © 1999-2023 PayPal, Inc. All rights reserved.
                                             PayPal is located at
@@ -457,7 +518,7 @@
                                 </tr>
                                 <tr>
                                     <td style="line-height:13px;padding: 5px 0px ;">
-                                        <p
+                                        <p class="small_text"
                                             style="margin:0;font-size:11px;font-family:Helvetica,Arial,sans-serif;color:#000000;">
                                             PayPal RT000016:en_US(en-US):1.5.0:e5326d0efdba4</p>
                                     </td>
